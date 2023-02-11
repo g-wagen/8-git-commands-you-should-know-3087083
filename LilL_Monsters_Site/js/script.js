@@ -97,15 +97,15 @@ $(function () {
   let typesTween = new TimelineMax()
 
   typesTween.from('#types .col', {
-    scale: 0.5,
+    scale: 0.2,
     opacity: 0,
-    stagger: 0.25,
+    stagger: 0.3,
   })
 
   new ScrollMagic.Scene({
     triggerElement: '#types',
     triggerHook: 0,
-    duration: 300,
+    duration: 310,
   })
     .setPin('#types')
     .setTween(typesTween)
